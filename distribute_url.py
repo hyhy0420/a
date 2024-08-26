@@ -14,6 +14,9 @@ urls = {
 }
 
 @app.route('/')
+def index():
+    return render_template('distribute_url.html')  # HTML ファイルをレンダリング
+
 def random_redirect():
     # アクセス可能なURLのリストを取得
     available_urls = [url for url, count in urls.items() if count > 0]

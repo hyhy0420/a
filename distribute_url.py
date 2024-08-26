@@ -8,9 +8,9 @@ p = 2
 
 # URLとアクセスカウントを管理するディクショナリ
 urls = {
-    "https://www.is.tohoku.ac.jp/media/files/ethics/03_170606re.pdf": p,
-    "https://form.run/media/contents/googleform-message/": p,
-    "https://shibboleth.nihon-u.ac.jp/idp/profile/SAML2/Redirect/SSO?execution=e1s1": p
+    "https://www.netflix.com/": p,
+    "https://qiita.com/maec_lamar/items/a3a60a5d3e368b31fb77": p,
+    "https://docs.google.com/forms/u/0/d/e/1FAIpQLSedvqSv_eRG8ztFJt9Y1iUnTngy36FfqpR4D3DTZuQbKpBg6g/formResponse": p
 }
 
 @app.route('/')
